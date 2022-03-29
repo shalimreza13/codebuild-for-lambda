@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-    - echo "This is build phase... Zipping my lambda function"
+    - echo "This is build phase... Zipping my lambda function modified vol-2.0"
     - zip -r deployment_package.zip lambda_function.py
   post_build:
     commands:
